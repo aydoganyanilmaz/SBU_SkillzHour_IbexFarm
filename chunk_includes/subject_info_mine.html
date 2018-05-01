@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<div id="top"></div>
+<div align="center">
+
+<div style="width:43em;font-family:helvetica">
+
+  <img src="https://dl.dropboxusercontent.com/s/vrlwxzrp0d4cxan/logo.png" width="150" height="100" alt="*" style="float:left">
+  <img src="https://dl.dropboxusercontent.com/s/dzvgokmjdhdpkqy/nsf1.jpg" width="105" height="105" alt="*" style="float:right">
+
+ <br><br><br><br><br>
+
+  </tr>
+
+  <div style="width:43em;font-family:helvetica">
+  
+  <p align="center"style="color:darkblue;;font-size:160%;"> <b>Lütfen aşağıdaki bilgileri doldurunuz </b> <p/>
+    <br>
+<p align="left">
+
+  Burada vereceğiniz bilgiler Aydoğan Yanılmaz'ın doktora tezinde sadece bilimsel amaçla kullanılacaktır. Bu bilgiler bilimsel 
+  çalışmada kullanılacağı için * ile işaretlenmiş kısımları doldurmanız gerekecektir. Bu kısımları boş bıraktığınızda sonraki
+  sayfa açılmayacaktır.  
+     
+</p>
+
+
+<br><br>
+<p align="center" style="font-family:helvetica;color:cadetblue;font-size:150%;"><b>Kişisel bilgiler</b></p>
+
+<table style="color:black;">
+<tbody><tr>
+
+
+    <tr>
+    <td><p align="left">  E-posta adresiniz: </p><td><input name="email" type="text" size="50" class="optional"></td>
+    </tr>
+
+    <tr>
+    <td colspan="2"><label class="error" for="email"></label></td>
+    </tr>
+
+      <tr>
+   <td> <p align="left">* Kaç yaşındasınız? </p>
+   <td> <input name="age" type="text" size="50" class="obligatory"></td>
+    </tr>
+
+    <tr>
+    <td colspan="2"><label class="error" for="age"></label></td>
+    </tr>
+
+     
+
+   <tr>
+   <td> <p align="left">* Hangi şehirde doğdunuz? </p>
+   <td> <input name="cityborn" type="text" size="50" class="obligatory"></td>
+    </tr>
+
+    <tr>
+    <td colspan="2"><label class="error" for="cityborn"></label></td>
+    </tr>
+
+<tr>
+   <td> <p align="left">* Hangi şehirde yaşıyorsunuz? </p>
+   <td> <input name="cityliving" type="text" size="50" class="obligatory"></td>
+    </tr>
+
+    <tr>
+    <td colspan="2"><label class="error" for="cityliving"></label></td>
+    </tr>
+
+
+<tr>
+      <td> <p align="left">* En son aldığınız eğitim derecesi nedir? <p/>
+    </td><td> <p align="left"> <input name="education" type="radio" value="highschool" class="obligatory" id="chighschool"><label for="chighschool">Lise</label>
+                                <input name="education" type="radio" value="college" id="ccollege"><label for="ccollege">Lisans</label>
+                <input name="education" type="radio" value="masters" id="cmasters"><label for="cmasters">Yüksek lisans</label>
+
+    <tr>
+    <td colspan="2"><label class="error" for="education"></label></td>
+    </tr>
+
+     <tr>
+      <td> <p align="left">* Cinsiyet <p/>
+    </td><td> <p align="left"> <input name="sex" type="radio" value="male" class="obligatory" id="csexmale"><label for="csexmale">Erkek</label>
+                                 <input name="sex" type="radio" value="female" id="csexfemale"><label for="csexfemale">Kadın</label>
+
+    </tr>
+    <tr>
+    <td colspan="2"><label class="error" for="sex"></label></td>
+    </tr>
+
+    <tr>
+    <td> <p align= "left">* Yazı yazarken hangi elinizi kullanıyorsunuz?<p/>
+    </td><td> <p align="left"> <input name="hand" type="radio" value="right" class="obligatory" id="chandright"><label for="chandrigh">Sağ el</label>
+                                 <input name="hand" type="radio" value="left" id="chandleft"><label for="chandleft">Sol el</label>
+    </tr>
+    <tr>
+    <td colspan="2"><label class="error" for="hand"></label></td>
+    </tr>
+
+<tr>
+    <td> <p align= "left">* Disleksi/afazi gibi konuşma bozukluğunuz var mı?<p/>
+    </td><td> <p align="left"> <input name="impairment" type="radio" value="yes" class="obligatory" id="cyes"><label for="cyes">Evet</label>
+                                 <input name="impairment" type="radio" value="no" id="cno"><label for="cno">Hayır</label>
+    </tr>
+    <tr>
+    <td colspan="2"><label class="error" for="Impairment "></label></td>
+    </tr>
+
+    </tbody>
+    </table>
+
+
+
+    <p align="center" style="font-family:helvetica;color:cadetblue;font-size:150%;"><b>Dil öğrenme profili</b><p/>
+   <table style="color:black;">
+   <tbody><tr>
+
+ <td align="left"; colspan="2" style="width:30em; padding-bottom: 1em;">
+    </td>
+    </tr>
+
+    <p align="left" style="font-family:helvetica;color:cadetblue;font-size:130%;"><b>Anadiliniz</b><p/>
+
+    <p align="left"> Lütfen anadilinizle ilgili aşağıdaki sorulara cevap veriniz.
+     <!-- <br></p>
+   <p align="left"> Not: Bu kısımda kullanılan "Anadil" terimi bebeklikte ailenizden öğrendiğiniz dili ifade etmektedir. <br> </p>
+-->
+
+  <table style="color:black;">
+    <tbody> 
+    
+    <tr>
+      <td> <p align="left">* Anadiliniz Türkçe mi? <p/>
+    </td><td> <p align="left"> <input name="NativeTurkish" type="radio" value="yes" class="obligatory" id="cyes"><label for ="cyes">Evet</label>
+                                <input name="NativeTurkish" type="radio" value="no"  id="cno"><label for="cno">Hayır</label>
+
+        </tr>
+    <tr>
+    <td colspan="2"><label class="error" for="NativeTurkish"></label></td>
+    </tr>
+
+     <tr>
+    <td> <p align="left">* Türkçe'yi ne zaman öğrenmeye başladınız?<p/>
+    </td><td> <p align="left"> <input name="NativeTurkishAge" type="radio" value="birth" class="obligatory" id="cbirth"><label for ="cbirth">Bebeklikte</label>
+                                <input name="NativeTurkishAge" type="radio" value="teenage"  id="cteenage"><label for="cteenage">Ergenlikte</label>
+                <input name="NativeTurkishAge" type="radio" value="adult"  id="cadult"><label for="cadult">Yetişkinlikte</label>
+    
+    </tr>
+    <tr>
+    <td colspan="2"><label class="error" for="NativeTurkishAge"></label></td>
+    </tr>
+
+<br>
+    <tr>
+    <td> <p align="left">* İkinci bir anadiliniz var mı?</p>
+    </td><td> <p align="left"> <input name="NativeLang_2" type="radio" value="yes" class="obligatory" id="cyes"><label for ="cyes">Evet</label>
+                                <input name="NativeLang_2" type="radio" value="no"  id="cno"><label for="cno">Hayır</label>
+     <tr>
+     <td colspan="2"><label class="error" for="NativeLang_2"></label></td>
+     </tr>
+
+     <tr>
+    <td> <p align="left"> İkinci anadilinizi ne zaman öğrenmeye başladınız? <p/>
+   </td><td> <p align="left"> 
+      <input name="NativeLang_2Age" type="radio" value="birth" class="optional" id="cbirth"><label for ="cbirth">Bebeklikte</label>
+      <input name="NativeLang_2Age" type="radio" value="teenage" class="optional" id="cteenage"><label for="cteenage">Ergenlikte</label>
+      <input name="NativeLang_2Age" type="radio" value="adult" class="optional" id="cadult"><label for="cadult">Yetişkinlikte</label>
+
+    </tr>
+    <tr>
+    <td colspan="2"><label class="error" for="NativeLang_2Age"></label></td>
+    </tr>
+
+    </tbody>
+    </table>
+ <br>
+ <br>
+
+  <p align="left" style="font-family:helvetica;color:cadetblue;font-size:130%;"><b> Yabancı diller</b><p/>
+
+  <table style="color:black;">
+    <tbody>
+
+<tr>
+    <td> <p align= "left">* Yabancı dil biliyor musunuz? <p/>
+    </td><td> <p align="left"> <input name="ForeignLangKnowledge" type="radio" value="yes" class="obligatory" id="cForeignLangKnowledge"><label for="cForeignLangKnowledge">Evet</label>
+                                 <input name="ForeignLangKnowledge" type="radio" value="no" id="cForeignLangKnowledge"><label for="cForeignLangKnowledge">Hayır</label>
+    </tr>
+    <tr>
+    <td colspan="2"><label class="error" for="ForeignLangKnowledge "></label></td>
+    </tr>
+
+
+     <tr>
+    <td> <p align="left"> Hangi yabancı dilleri konuşuyorsunuz? </p>
+    
+       </td><td> <p align="left"> 
+       <input name="WhichForeignLs" type="checkbox" value="GE" class="optional" id="cGE"><label for ="cGE">Almanca</label>
+       <input name="WhichForeignLs" type="checkbox" value="AR" class="optional" id="cAR"><label for ="cAR">Arapça</label>
+      <!--  <input name="WhichForeignLs" type="checkbox" value="CH" class="optional" id="cCH"><label for ="cCH">Çince</label> -->
+       <input name="WhichForeignLs" type="checkbox" value="FR" class="optional" id="cFR"><label for ="cFR">Fransızca</label> 
+       <input name="WhichForeignLs" type="checkbox" value="EN" class="optional" id="cEN"><label for ="cEN">İngilizce</label>
+       <input name="WhichForeignLs" type="checkbox" value="OT" class="optional" id="cOT"><label for ="cOT">Diğer</label>
+       <!-- 
+       <input name="WhichForeignLs" type="checkbox" value="SP" class="optional" id="cSP"><label for ="cSP">İspanyolca</label>
+       <input name="WhichForeignLs" type="checkbox" value="JA" class="optional" id="cJA"><label for ="cJA">Japonca</label>
+       <input name="WhichForeignLs" type="checkbox" value="PE" class="optional" id="cPE"><label for ="cPE">Farsça</label> 
+       <input name="WhichForeignLs" type="checkbox" value="RU" class="optional" id="cRU"><label for ="cRU">Rusça</label>
+       -->
+
+    <td>
+     </tr>
+     <tr>
+     <td colspan="2"><label class="error" for="WhichForeignLangs"></label></td>
+     </tr>
+
+    <td> <p align="left"> En ileri seviyede olduğunuz yabancı dil hangisi? </p>
+    </td><td> <p align="left"> 
+      <input name="mostProfForeignL" type="radio" value="GE" class="optional" id="cGE"><label for ="cGE">Almanca</label>
+      <input name="mostProfForeignL" type="radio" value="AR" class="optional" id="cAR"><label for ="cAR">Arapça</label>
+      <input name="mostProfForeignL" type="radio" value="FR" class="optional" id="cFR"><label for ="cFR">Fransızca</label>
+      <input name="mostProfForeignL" type="radio" value="EN" class="optional" id="cEN"><label for ="cEN">İngilizce</label>
+      <input name="mostProfForeignL" type="radio" value="OT" class="optional" id="cOT"><label for ="cOT">Diğer</label>
+     <!--  
+      <input name="mostProfForeignL" type="radio" value="CH" class="optional" id="cCH"><label for ="cCH">Çince</label> 
+      <input name="mostProfForeignL" type="radio" value="PE" class="optional" id="cPE"><label for ="cPE">Farsça</label> 
+      <input name="mostProfForeignL" type="radio" value="SP" class="optional" id="cSP"><label for ="cSP">İspanyolca</label>
+      <input name="mostProfForeignL" type="radio" value="JA" class="optional" id="cJA"><label for ="cJA">Japonca</label>
+      <input name="mostProfForeignL" type="radio" value="RU" class="optional" id="cRU"><label for ="cRU">Rusça</label>
+      <input name="WhichForeignLs" type="checkbox" value="PE" class="optional" id="cPE"><label for ="cPE">Farsça</label> 
+      -->
+      
+     <tr>
+     <td colspan="2"><label class="error" for="mostProfForeignLang"></label></td>
+     </tr>
+
+
+
+     <tr>
+    <td> <p align="left"> Seçtiğiniz yabancı dili ne zaman öğrenmeye başladınız?<p/>
+    </td><td> <p align="left"> 
+      <input name="ForeignLang_1Age" type="radio" value="elementarySchool" class="optional" id="celementarySchool"><label for ="celementarySchool">İlkokul</label>
+      <input name="ForeignLang_1Age" type="radio" value="middleSchool" class="optional" id="cmiddleSchool"><label for="cmiddleSchool">Ortaokul</label>
+      <input name="ForeignLang_1Age" type="radio" value="highSchool" class="optional" id="chighSchool"><label for="chighSchool">Lise</label>
+      <input name="ForeignLang_1Age" type="radio" value="college" class="optional" id="ccollege"> <label for="ccollege">Üniversite</label>
+    <tr>
+    <td colspan="2"><label class="error" for="ForeignLang_1Age"></label></td>
+    </tr>
+
+
+<tr>
+<td> <p align="left"> Seçtiğiniz yabancı dili nerede öğrendiniz?</p>
+  <td> <p align="left">
+      <input name="selfRateNativeLanguage_2Place" type="radio" value="home" class="optional" id="cselfRateNativeLanguage_2Place_1" ><label for="cselfRateNativeLanguage_2Place_1">Evde</label>
+      <input name="selfRateNativeLanguage_2Place" type="radio" value="school" class="optional" id="cselfRateNativeLanguage_2Place_2" ><label for="cselfRateNativeLanguage_2Place_2">Okulda/Kursta</label>
+      <input name="selfRateNativeLanguage_2Place" type="radio" value="internet" class="optional" id="cselfRateNativeLanguage_2Place_3" ><label for="cselfRateNativeLanguage_2Place_3">İnternette</label>
+      <input name="selfRateNativeLanguage_2Place" type="radio" value="other" class="optional" id="cselfRateNativeLanguage_2Place_3" ><label for="cselfRateNativeLanguage_2Place_3">Diğer</label>
+<td>
+        </td>
+    </td>
+    </tr>
+    <tr>
+      <td colspan="2"><label class="error" for="selfRateNativeLanguage_2Place"></label></td>
+    </tr>
+
+
+<br>
+
+
+  </tbody>
+</table>
+
+<p align="left" style="font-family:helvetica;color:cadetblue;font-size:130%;"><b> Dil becerileri</b><p/>
+
+<table style="color:black;">
+     <tbody>
+       <tr> 
+       <p align="left"> Konuştuğunuz dilleri ne kadar iyi biliyorsunuz? Dil becerilerinizi 
+       1'den 5'e kadar değerlendirmenizi istiyoruz. Lütfen "1" seçeneğini az/düşük seviye için, "5" seçeneğini 
+       çok iyi/anadil seviyesi için seçin. Eğer hiçbir fikriniz yoksa NA seçeneğini seçin. </p>
+  <p align="left"> <b>* Türkçe: </b></p>
+     
+     </tr>
+            </tbody>
+</table>
+     
+  
+  
+  <table style="color:black;">
+     <tbody>
+         
+<td> <p align="left"> Dinleme: </p>
+
+<td> <p align="left">
+<input name="selfRateTurkishListening" type="radio" value="1" class="obligatory" id="cselfRateTurkishListening_1" ><label for="cselfRateTurkishListening_1">1</label>
+<input name="selfRateTurkishListening" type="radio" value="2" class="obligatory" id="cselfRateTurkishListening_2" ><label for="cselfRateTurkishListening_2">2</label>
+<input name="selfRateTurkishListening" type="radio" value="3" class="obligatory" id="cselfRateTurkishListening_3" ><label for="cselfRateTurkishListening_3">3</label>
+<input name="selfRateTurkishListening" type="radio" value="4" class="obligatory" id="cselfRateTurkishListening_4" ><label for="cselfRateTurkishListening_4">4</label>
+<input name="selfRateTurkishListening" type="radio" value="5" class="obligatory" id="cselfRateTurkishListening_5" ><label for="cselfRateTurkishListening_5">5</label>
+<input name="selfRateTurkishListening" type="radio" value="NA" class="obligatory" id="cselfRateTurkishListening_NA" ><label for="cselfRateTurkishListening_NA">NA</label>
+ <td>
+</td>
+  </td>
+  </tr>
+<tr>
+<td colspan="2"><label class="error" for="selfRateTurkishListening"></label></td>
+</tr>
+
+
+  <tr>
+  <td> <p align="left"> Konuşma: </p>
+    </td>
+
+    <td><p align="left">
+      <input name="selfRateTurkishSpeaking" type="radio" value="1" class="obligatory" id="cselfRateTurkishSpeaking_1" ><label for="cselfRateTurkishSpeaking_1">1</label>
+      <input name="selfRateTurkishSpeaking" type="radio" value="2" class="obligatory" id="cselfRateTurkishSpeaking_2" ><label for="cselfRateTurkishSpeaking_2">2</label>
+      <input name="selfRateTurkishSpeaking" type="radio" value="3" class="obligatory" id="cselfRateTurkishSpeaking_3" ><label for="cselfRateTurkishSpeaking_3">3</label>
+      <input name="selfRateTurkishSpeaking" type="radio" value="4" class="obligatory" id="cselfRateTurkishSpeaking_4" ><label for="cselfRateTurkishSpeaking_4">4</label>
+      <input name="selfRateTurkishSpeaking" type="radio" value="5" class="obligatory" id="cselfRateTurkishSpeaking_5" ><label for="cselfRateTurkishSpeaking_5">5</label>
+      <input name="selfRateTurkishSpeaking" type="radio" value="NA" class="obligatory" id="cselfRateTurkishSpeaking_NA" ><label for="cselfRateTurkishSpeaking_NA">NA</label>
+ <td>
+   
+  </td>
+    </tr>
+    <tr>
+      <td colspan="2"><label class="error" for="selfRateTurkishSpeaking"></label></td>
+    </tr>
+
+<tr>
+    </td>
+    <td> <p align="left"> Okuma:</p>
+    <td> <p align="left">
+      <input name="selfRateTurkishReading" type="radio" value="1" class="obligatory" id="cselfRateTurkishReading_1" ><label for="cselfRateTurkishReading_1">1</label>
+      <input name="selfRateTurkishReading" type="radio" value="2" class="obligatory" id="cselfRateTurkishReading_2" ><label for="cselfRateTurkishReading_2">2</label>
+      <input name="selfRateTurkishReading" type="radio" value="3" class="obligatory" id="cselfRateTurkishReading_3" ><label for="cselfRateTurkishReading_3">3</label>
+      <input name="selfRateTurkishReading" type="radio" value="4" class="obligatory" id="cselfRateTurkishReading_4" ><label for="cselfRateTurkishReading_4">4</label>
+      <input name="selfRateTurkishReading" type="radio" value="5" class="obligatory" id="cselfRateTurkishReading_5" ><label for="cselfRateTurkishReading_5">5</label>
+      <input name="selfRateTurkishReading" type="radio" value="NA" class="obligatory" id="cselfRateTurkishReading_NA" ><label for="cselfRateTurkishReading_NA">NA</label>
+ <td>
+  
+  </td>
+ 
+  </tr>
+  <tr>
+  <td colspan="2"><label class="error" for="selfRateTurkishReading"></label></td>
+  </tr>
+
+  <tr>
+  </td>
+  <td> <p align="left">Yazma:</p>
+    <td> <p align="left">
+      <input name="selfRateTurkishWriting" type="radio" value="1" class="obligatory" id="cselfRateTurkishWriting_1" ><label for="cselfRateTurkishWriting_1">1</label>
+      <input name="selfRateTurkishWriting" type="radio" value="2" class="obligatory" id="cselfRateTurkishWriting_2" ><label for="cselfRateTurkishWriting_2">2</label>
+      <input name="selfRateTurkishWriting" type="radio" value="3" class="obligatory" id="cselfRateTurkishWriting_3" ><label for="cselfRateTurkishWriting_3">3</label>
+      <input name="selfRateTurkishWriting" type="radio" value="4" class="obligatory" id="cselfRateTurkishWriting_4" ><label for="cselfRateTurkishWriting_4">4</label>
+      <input name="selfRateTurkishWriting" type="radio" value="5" class="obligatory" id="cselfRateTurkishWriting_5" ><label for="cselfRateTurkishWriting_5">5</label>
+      <input name="selfRateTurkishWriting" type="radio" value="NA" class="obligatory" id="cselfRateTurkishWriting_NA" ><label for="cselfRateTurkishWriting_NA">NA</label>
+  <td>
+  
+
+  </td>
+    </tr>
+    <tr>
+      <td colspan="2"><label class="error" for="selfRateTurkishWriting"></label></td>
+    </tr>
+
+    
+       </tbody>
+</table>
+
+   <tbody>
+       <tr> 
+  <p align="left"> <b>İkinci Anadil: </b></p>
+     
+     </tr>
+            </tbody>
+</table>
+     
+  
+  
+  <table style="color:black;">
+     <tbody>
+         
+<td> <p align="left"> Dinleme: </p>
+
+<td> <p align="left">
+<input name="selfRateNativeLanguage_2Listening" type="radio" value="1" class="optional" id="cselfRateNativeLanguage_2Listening_1" ><label for="cselfRateNativeLanguage_2Listening_1">1</label>
+<input name="selfRateNativeLanguage_2Listening" type="radio" value="2" class="optional" id="cselfRateNativeLanguage_2Listening_2" ><label for="cselfRateNativeLanguage_2Listening_2">2</label>
+<input name="selfRateNativeLanguage_2Listening" type="radio" value="3" class="optional" id="cselfRateNativeLanguage_2Listening_3" ><label for="cselfRateNativeLanguage_2Listening_3">3</label>
+<input name="selfRateNativeLanguage_2Listening" type="radio" value="4" class="optional" id="cselfRateNativeLanguage_2Listening_4" ><label for="cselfRateNativeLanguage_2Listening_4">4</label>
+<input name="selfRateNativeLanguage_2Listening" type="radio" value="5" class="optional" id="cselfRateNativeLanguage_2Listening_5" ><label for="cselfRateNativeLanguage_2Listening_5">5</label>
+<input name="selfRateNativeLanguage_2Listening" type="radio" value="NA" class="optional" id="cselfRateNativeLanguage_2Listening_NA" ><label for="cselfRateNativeLanguage_2Listening_NA">NA</label>
+ <td>
+</td>
+  </td>
+  </tr>
+<tr>
+<td colspan="2"><label class="error" for="selfRateNativeLanguage_2Listening"></label></td>
+</tr>
+
+
+  <tr>
+  <td> <p align="left"> Konuşma: </p>
+    </td>
+
+    <td><p align="left">
+      <input name="selfRateNativeLanguage_2Speaking" type="radio" value="1" class="optional" id="cselfRateNativeLanguage_2Speaking_1" ><label for="cselfRateNativeLanguage_2Speaking_1">1</label>
+      <input name="selfRateNativeLanguage_2Speaking" type="radio" value="2" class="optional" id="cselfRateNativeLanguage_2Speaking_2" ><label for="cselfRateNativeLanguage_2Speaking_2">2</label>
+      <input name="selfRateNativeLanguage_2Speaking" type="radio" value="3" class="optional" id="cselfRateNativeLanguage_2Speaking_3" ><label for="cselfRateNativeLanguage_2Speaking_3">3</label>
+      <input name="selfRateNativeLanguage_2Speaking" type="radio" value="4" class="optional" id="cselfRateNativeLanguage_2Speaking_4" ><label for="cselfRateNativeLanguage_2Speaking_4">4</label>
+      <input name="selfRateNativeLanguage_2Speaking" type="radio" value="5" class="optional" id="cselfRateNativeLanguage_2Speaking_5" ><label for="cselfRateNativeLanguage_2Speaking_5">5</label>
+      <input name="selfRateNativeLanguage_2Speaking" type="radio" value="NA" class="optional" id="cselfRateNativeLanguage_2Speaking_NA" ><label for="cselfRateNativeLanguage_2Speaking_NA">NA</label>
+ <td>
+   
+  </td>
+    </tr>
+    <tr>
+      <td colspan="2"><label class="error" for="selfRateNativeLanguage_2Speaking"></label></td>
+    </tr>
+
+<tr>
+    </td>
+    <td> <p align="left"> Okuma:</p>
+    <td> <p align="left">
+      <input name="selfRateNativeLanguage_2Reading" type="radio" value="1" class="optional" id="cselfRateNativeLanguage_2Reading_1" ><label for="cselfRateNativeLanguage_2Reading_1">1</label>
+      <input name="selfRateNativeLanguage_2Reading" type="radio" value="2" class="optional" id="cselfRateNativeLanguage_2Reading_2" ><label for="cselfRateNativeLanguage_2Reading_2">2</label>
+      <input name="selfRateNativeLanguage_2Reading" type="radio" value="3" class="optional" id="cselfRateNativeLanguage_2Reading_3" ><label for="cselfRateNativeLanguage_2Reading_3">3</label>
+      <input name="selfRateNativeLanguage_2Reading" type="radio" value="4" class="optional" id="cselfRateNativeLanguage_2Reading_4" ><label for="cselfRateNativeLanguage_2Reading_4">4</label>
+      <input name="selfRateNativeLanguage_2Reading" type="radio" value="5" class="optional" id="cselfRateNativeLanguage_2Reading_5" ><label for="cselfRateNativeLanguage_2Reading_5">5</label>
+      <input name="selfRateNativeLanguage_2Reading" type="radio" value="NA" class="optional" id="cselfRateNativeLanguage_2Reading_NA" ><label for="cselfRateNativeLanguage_2Reading_NA">NA</label>
+ <td>
+  
+  </td>
+ 
+  </tr>
+  <tr>
+  <td colspan="2"><label class="error" for="selfRateNativeLanguage_2Reading"></label></td>
+  </tr>
+
+  <tr>
+  </td>
+  <td> <p align="left">Yazma:</p>
+    <td> <p align="left">
+      <input name="selfRateNativeLanguage_2Writing" type="radio" value="1" class="optional" id="cselfRateNativeLanguage_2Writing_1" ><label for="cselfRateNativeLanguage_2Writing_1">1</label>
+      <input name="selfRateNativeLanguage_2Writing" type="radio" value="2" class="optional" id="cselfRateNativeLanguage_2Writing_2" ><label for="cselfRateNativeLanguage_2Writing_2">2</label>
+      <input name="selfRateNativeLanguage_2Writing" type="radio" value="3" class="optional" id="cselfRateNativeLanguage_2Writing_3" ><label for="cselfRateNativeLanguage_2Writing_3">3</label>
+      <input name="selfRateNativeLanguage_2Writing" type="radio" value="4" class="optional" id="cselfRateNativeLanguage_2Writing_4" ><label for="cselfRateNativeLanguage_2Writing_4">4</label>
+      <input name="selfRateNativeLanguage_2Writing" type="radio" value="5" class="optional" id="cselfRateNativeLanguage_2Writing_5" ><label for="cselfRateNativeLanguage_2Writing_5">5</label>
+      <input name="selfRateNativeLanguage_2Writing" type="radio" value="NA" class="optional" id="cselfRateNativeLanguage_2Writing_NA" ><label for="cselfRateNativeLanguage_2Writing_NA">NA</label>
+  <td>
+  
+
+  </td>
+    </tr>
+    <tr>
+      <td colspan="2"><label class="error" for="selfRateNativeLanguage_2Writing"></label></td>
+    </tr>
+
+
+       </tbody>
+</table>
+
+
+
+ <tbody>
+       <tr> 
+  <p align="left"> <b>En iyi bildiğiniz yabancı dilde: </b></p>
+     
+     </tr>
+            </tbody>
+</table>
+     
+  
+  
+  <table style="color:black;">
+     <tbody>
+         
+<td> <p align="left"> Dinleme: </p>
+
+<td> <p align="left">
+    <input name="selfRateForeignLanguage_1Listening" type="radio" value="1" class="optional" id="cselfRateForeignLanguage_1Listening_1" ><label for="cselfRateForeignLanguage_1Listening_1">1</label>
+      <input name="selfRateForeignLanguage_1Listening" type="radio" value="2" class="optional" id="cselfRateForeignLanguage_1Listening_2" ><label for="cselfRateForeignLanguage_1Listening_2">2</label>
+      <input name="selfRateForeignLanguage_1Listening" type="radio" value="3" class="optional" id="cselfRateForeignLanguage_1Listening_3" ><label for="cselfRateForeignLanguage_1Listening_3">3</label>
+      <input name="selfRateForeignLanguage_1Listening" type="radio" value="4" class="optional" id="cselfRateForeignLanguage_1Listening_4" ><label for="cselfRateForeignLanguage_1Listening_4">4</label>
+      <input name="selfRateForeignLanguage_1Listening" type="radio" value="5" class="optional" id="cselfRateForeignLanguage_1Listening_5" ><label for="cselfRateForeignLanguage_1Listening_5">5</label>
+      <input name="selfRateForeignLanguage_1Listening" type="radio" value="NA" class="optional" id="cselfRateForeignLanguage_1Listening_NA" ><label for="cselfRateForeignLanguage_1Listening_NA">NA</label>
+ <td>
+</td>
+  </td>
+  </tr>
+<tr>
+<td colspan="2"><label class="error" for="selfRateForeignLanguage_1Listening"></label></td>
+</tr>
+
+
+  <tr>
+  <td> <p align="left"> Konuşma: </p>
+    </td>
+
+    <td><p align="left">
+      <input name="selfRateForeignLanguage_1Speaking" type="radio" value="1" class="optional" id="cselfRateForeignLanguage_1Speaking_1" ><label for="cselfRateForeignLanguage_1Speaking_1">1</label>
+      <input name="selfRateForeignLanguage_1Speaking" type="radio" value="2" class="optional" id="cselfRateForeignLanguage_1Speaking_2" ><label for="cselfRateForeignLanguage_1Speaking_2">2</label>
+      <input name="selfRateForeignLanguage_1Speaking" type="radio" value="3" class="optional" id="cselfRateForeignLanguage_1Speaking_3" ><label for="cselfRateForeignLanguage_1Speaking_3">3</label>
+      <input name="selfRateForeignLanguage_1Speaking" type="radio" value="4" class="optional" id="cselfRateForeignLanguage_1Speaking_4" ><label for="cselfRateForeignLanguage_1Speaking_4">4</label>
+      <input name="selfRateForeignLanguage_1Speaking" type="radio" value="5" class="optional" id="cselfRateForeignLanguage_1Speaking_5" ><label for="cselfRateForeignLanguage_1Speaking_5">5</label>
+      <input name="selfRateForeignLanguage_1Speaking" type="radio" value="NA" class="optional" id="cselfRateForeignLanguage_1Speaking_NA" ><label for="cselfRateForeignLanguage_1Speaking_NA">NA</label>
+ <td>
+   
+  </td>
+    </tr>
+    <tr>
+       <td colspan="2"><label class="error" for="selfRateForeignLanguage_1Speaking"></label></td>
+    </tr>
+
+<tr>
+    </td>
+    <td> <p align="left"> Okuma:</p>
+    <td> <p align="left">
+      <input name="selfRateForeignLanguage_1Reading" type="radio" value="1" class="optional" id="cselfRateForeignLanguage_1Reading_1" ><label for="cselfRateForeignLanguage_1Reading_1">1</label>
+      <input name="selfRateForeignLanguage_1Reading" type="radio" value="2" class="optional" id="cselfRateForeignLanguage_1Reading_2" ><label for="cselfRateForeignLanguage_1Reading_2">2</label>
+      <input name="selfRateForeignLanguage_1Reading" type="radio" value="3" class="optional" id="cselfRateForeignLanguage_1Reading_3" ><label for="cselfRateForeignLanguage_1Reading_3">3</label>
+      <input name="selfRateForeignLanguage_1Reading" type="radio" value="4" class="optional" id="cselfRateForeignLanguage_1Reading_4" ><label for="cselfRateForeignLanguage_1Reading_4">4</label>
+      <input name="selfRateForeignLanguage_1Reading" type="radio" value="5" class="optional" id="cselfRateForeignLanguage_1Reading_5" ><label for="cselfRateForeignLanguage_1Reading_5">5</label>
+      <input name="selfRateForeignLanguage_1Reading" type="radio" value="NA" class="optional" id="cselfRateForeignLanguage_1Reading_NA" ><label for="cselfRateForeignLanguage_1Reading_NA">NA</label>
+ <td>
+  
+  </td>
+ 
+  </tr>
+  <tr>
+    <td colspan="2"><label class="error" for="selfRateForeignLanguage_1Reading"></label></td>
+  </tr>
+
+  <tr>
+  </td>
+  <td> <p align="left">Yazma:</p>
+    <td> <p align="left">
+      <input name="selfRateForeignLanguage_1Writing" type="radio" value="1" class="optional" id="cselfRateForeignLanguage_1Writing_1" ><label for="cselfRateForeignLanguage_1Writing_1">1</label>
+      <input name="selfRateForeignLanguage_1Writing" type="radio" value="2" class="optional" id="cselfRateForeignLanguage_1Writing_2" ><label for="cselfRateForeignLanguage_1Writing_2">2</label>
+      <input name="selfRateForeignLanguage_1Writing" type="radio" value="3" class="optional" id="cselfRateForeignLanguage_1Writing_3" ><label for="cselfRateForeignLanguage_1Writing_3">3</label>
+      <input name="selfRateForeignLanguage_1Writing" type="radio" value="4" class="optional" id="cselfRateForeignLanguage_1Writing_4" ><label for="cselfRateForeignLanguage_1Writing_4">4</label>
+      <input name="selfRateForeignLanguage_1Writing" type="radio" value="5" class="optional" id="cselfRateForeignLanguage_1Writing_5" ><label for="cselfRateForeignLanguage_1Writing_5">5</label>
+      <input name="selfRateForeignLanguage_1Writing" type="radio" value="NA" class="optional" id="cselfRateForeignLanguage_1Writing_NA" ><label for="cselfRateForeignLanguage_1Writing_NA">NA</label>
+  <td>
+  
+
+  </td>
+    </tr>
+    <tr>
+       <td colspan="2"><label class="error" for="selfRateForeignLanguage_1Writing"></label></td>
+    </tr>
+
+
+    </tbody>
+  </table>
+
+
+
+<br><br>
+
+
+</div>

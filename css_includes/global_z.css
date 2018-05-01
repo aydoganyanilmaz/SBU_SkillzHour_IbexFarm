@@ -1,0 +1,145 @@
+body {
+    font-family: courier;
+    color: black;
+    background-color: white;
+    margin-left: 0;
+    margin-top: 5em;
+}
+
+.lindent {
+  margin-left: 5em;
+}
+
+.sending-results {
+    font-weight: bold;
+    font-size: medium;
+}
+
+div.bar-container {
+    border: 1px solid;
+    border-color: #9ea4b1;
+    background-color: white;
+}
+
+div.bar {
+    background-color: blue;
+}
+
+p.progress-text {
+    padding-top: 0.5em;
+    margin-top: 0;
+    margin-bottom: 2em;
+    font-style: italic;
+    font-size: small;
+}
+
+.Separator-next-item-message {
+  font-family:helvetica;
+  font-style: italic;
+  color: black;
+  font-size: 1em;
+}
+
+.Separator-next-item-failure-message {
+  font-family:helvetica;
+  font-style: italic;
+  color: black;
+  font-size: 1em;
+}
+
+p.practice-box {
+    color: blue;
+    height: 1.5em;
+    padding-bottom: 1em;
+    font-size: medium;
+    text-align: center;
+}
+
+span.retry {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+span.retry:hover {
+    text-decoration: underline;
+}
+
+span.retry:visited {
+    color: blue;
+}
+
+.DashedSentence-sentence {
+  font-size: 1.3em;
+  background-color: white;
+}
+
+.Question-Question {
+  font-size:1.3em;
+}
+
+.Question-ispan {
+  font-size:1.3em
+}
+
+.Question-instructions-text {
+    clear: left;
+    padding-top: 1em;
+    font-size: 1.3em;
+}
+
+li.Question-scale-box {
+    float: left;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 1em;
+    padding-right: 0;
+    border: 2px #9ea4b1 solid;
+    font-size: 1.3em;
+    width: 5em;
+    height: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+}
+
+.Question-scale-comment-box {
+    float: left;
+    list-style: none;
+    margin-left: 0em;
+    padding-left: 0;
+    margin-right: 1em;
+    padding-right: 0;
+    padding-top: 0.5em;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.3em;
+}
+
+#vocab-table {
+    width : 100%;
+    border-collapse : collapse;
+    font-size : 13px;
+}
+
+ td.input-cell, .error-row td {
+  border-right : 1px solid #9ea4b1;
+  padding-bottom: 0.5em;
+}
+
+/* This is where I set the spacing to the left of the cells with words */
+.word-cell {
+  padding-left : 0.5em;
+}
+
+/* This where the padding for the Yes/No cell is set */
+.input-cell {
+    padding-right: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+.word {
+    font-style: italic;
+}
